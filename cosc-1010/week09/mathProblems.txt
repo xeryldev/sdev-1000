@@ -1,0 +1,8 @@
+double 40
+square 5
+rectPerim 10 20
+rectArea 20 30
+trianglePerim 34 12 45
+triangleArea 56 78
+circlePerim 23
+circleArea 45
