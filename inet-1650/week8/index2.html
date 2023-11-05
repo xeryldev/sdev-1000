@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RPS 2</title>
+  <style>
+    #gameIcons img {
+        cursor: pointer;
+        width: 70px;
+    }
+    img:hover, #userChoice {
+        background-color: teal;
+        border-radius: 50%;
+    }
+    #computerChoice {
+        background-color: orange;
+        border-radius: 50%;
+    }
+
+  </style>
+</head>
+
+<body>
+  <h1>Rock, Paper, Scissors</h1>
+  <script src="main2.js"></script>
+  <hr />
+  <div id="gameIcons">
+  <h2>Make Selection</h2>
+  <img src="rock.png" onclick="rps('rock');" />
+  <img src="paper.png" onclick="rps('paper');" />
+  <img src="scissors.png" onclick="rps('scissors');" />
+  </div>
+  <hr />
+  <div id="gameOutput"></div>
+
+</body>
+  
+</html>
